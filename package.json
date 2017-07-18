@@ -4,7 +4,7 @@
   "description": "A fun little math library to make math operations in JavaScript even easier",
   "main": "dist/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-ts \"spec/**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/wbhob/w/issues"
   },
-  "homepage": "https://github.com/wbhob/w#readme"
+  "homepage": "https://github.com/wbhob/w#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "jasmine": "^2.6.0",
+    "jasmine-ts": "^0.2.0"
+  }
 }
