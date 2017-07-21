@@ -1,5 +1,5 @@
 import 'jasmine';
-import { add } from '../src/add';
+import { add } from '../src/arithmetic/add';
 
 describe('add', () => {
     it('should add numbers as a spread operator', () => {
