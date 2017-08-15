@@ -5,7 +5,7 @@
   "main": "dist/index",
   "scripts": {
     "test": "jasmine-ts \"spec/**/*.spec.ts\"",
-    "doc": "./node_modules/.bin/typedoc --out docs --mode file . --readme ./README.md --theme minimal"
+    "doc": "./node_modules/.bin/typedoc --excludePrivate --out docs --mode file ./src --readme ./README.md --theme minimal --exclude ./**/util/**/*.ts --externalPattern ./**/util/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,9 @@
     "@types/jasmine": "^2.5.53",
     "jasmine": "^2.6.0",
     "jasmine-ts": "^0.2.0",
-    "typedoc": "^0.7.1"
-  }
+    "typedoc": "^0.7.1",
+    "typedoc-clarity-theme": "^1.1.0",
+    "typedoc-dash-theme": "^1.1.0"
+  },
+  "dependencies": {}
 }
