@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.1",
   "description": "A fun little math library to make math operations in JavaScript even easier",
   "main": "dist/index",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "jasmine-ts \"spec/**/*.spec.ts\"",
     "doc": "./node_modules/.bin/typedoc --excludePrivate --out docs --mode file ./src --readme ./README.md --theme minimal --exclude ./**/util/**/*.ts --externalPattern ./**/util/**/*.ts"
