@@ -1,6 +1,6 @@
 {
   "name": "w",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "A fun little math library to make math operations in JavaScript even easier",
   "main": "dist/index",
   "typings": "dist/index.d.ts",
