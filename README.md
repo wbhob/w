@@ -1,2 +1,2 @@
 # w
-`W` is no longer in use. If you want this package name, please open an issue in the repo describing your intent and I will gladly release it to you shortly! (https://github.com/wbhob/w)
+The `W` package has been released to a different project: https://github.com/codefeathers/w
